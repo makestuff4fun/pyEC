@@ -54,3 +54,5 @@ The “Test Layer” provides pinouts for all header pins. This gives a way to p
 IMU Layer
 The “IMU Layer” provides a WIT Motion JY901B 10 axis IMU. This is a great little unit and can also provide info from a connected GPS. This offloads the GPS string parsing from the control layer but still allows GPS information to be used. There are several digital/PWM outputs that can be configured as well. There is a connection for direct connection to the IMU for configuration, a reset jumper, GPS port and IMU io port. This layer by default uses serial to communicate with the IMU but can be configured to use I2C as well.
 
+more information can be found at http://makestuff4.fun/pyec/
+
