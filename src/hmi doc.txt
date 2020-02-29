@@ -1,0 +1,105 @@
+debug(msg, arg='', arg2='', arg3='')
+
+Provides a way to output data to the console. It's easily disabled by commenting out the print line.
+
+write_raw(message)
+
+Output text to the hmi serial port
+
+write_message(message)
+
+Encodes message to ISO-8859-1
+Adds trailing 0xFF,0xFF,0xFF to message, then calls write_raw()
+
+set(key, value)
+
+Sets a key or setting on the HMI
+
+set_page(id)
+
+Sets the current page to display on the HMI
+
+set_value(id, value)
+
+Sets the value of a variable on the HMI
+
+set_text(id, value)
+
+Sets a text string value in the HMI
+
+read_return()
+
+Reads the return value, used in obtaining variable values from the HMI
+This function is typically called by process_return if there is serial data waiting on HMI serial port. There really no need to call it directly
+
+
+process_return()
+
+Processes different types of data for the HMI and calls appropriate handler.
+
+process_standard_return()
+
+Orignally a quick way to log errors from HMI function calls.
+Due to limitations of the HMI, it can't be used to get success/failure messages from the HMI as the delay causes errors in the main loop.
+It functions properly, but conditional behavior based on failure of a command is not practical. Messages can be rerieved as they arrive with very little delay, but they may be hard to associate with specific function call.
+Currently it's not used.
+
+set_page_by_name(page_name)
+
+Set HMI page by page name.
+
+get_page()
+
+Have HMI return the current page
+
+get(name)
+
+Get HMI setting
+
+get_value(id)
+
+Get value of variable from HMI
+
+get_text(id)
+
+Get text string variable from HMI
+
+add(id, channel, value)
+
+Add a value to a plot
+
+addt(id=1, channel=0, num_bytes=5, buff=None)
+
+Bulk add data to a plot, good for loading logs for display
+
+clear_graph(id=1)
+
+Clears a plot
+
+debug_message(str)
+
+Activates my debug HMI page for showing errors on HMI. Must have supporting HMI code
+
+update_volts(new_volts)
+
+Update my HMI voltage display. Must have supporting HMI code
+
+update_motor_temp(new_motor_temp)
+
+Update my HMI motor temp display. Must have supporting HMI code
+
+update_amps(new_amps)
+
+Update my HMI phase amps display. Must have supporting HMI code
+
+update_speed(new_speed)
+
+Update my HMI Speed display. Must have supporting HMI code
+
+update_page()
+
+Uses the current page of the HMI to determine what data to send. This must be configured for your HMI code
+
+update_graph()
+
+Updates plot with voltage etc. Must have supporting HMI code

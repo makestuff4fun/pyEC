@@ -1,0 +1,20 @@
+kelly.py communicates with Kelly controllers. I have only tested with KLS-S controllers but I suspect the data return format is similar on all their controllers. I will need to verify this at some point.
+
+The controller has 3 blocks of data you can read, 3A, 3B & 3C. 
+send_3A()
+
+Requests data block A
+        
+send_3B()
+
+Requests data block B
+
+send_3C()
+
+Requests data block C
+
+get_data()
+
+The reads the serial buffer and parses the data into variables you can then read from main.
+split the calls to send_3X and get_data to give the kelly time to respond. Max rate is 15 blocks of data per second. 
+I haven't found anything useful in block C, I only read blocks A & B.

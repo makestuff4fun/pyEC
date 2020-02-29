@@ -1,0 +1,10 @@
+imu.py
+
+This module communicates with a Wit Motion IMU. I use the JY-901B, though code should work with many other Wit Motion IMUs.
+
+read_IMU_data()
+
+Call this function at the IMU refresh rate (10Hz etc.) It reads the serial buffer and updates data members. The main module simply calls this function and reads the updated values.
+The function reads complete strings from the buffer, and doesn't support partial strings, or reading a reply over multiple calls. That approach uses similar code but I found it slower and not as reliable.
+
+

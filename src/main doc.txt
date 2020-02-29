@@ -1,0 +1,18 @@
+main.py controls all the timing for the accessing modules and accessories. All timing is done with interupts. To prevent interuptions, callback functions set flags, taht are then read and cleared by the main loop. This approach gives slight possible variation to timing of calls, but helps prevent unintended operation. 
+When throttle mapping is implemented, this may need very precise timing where operations must occur in callback function.
+
+Timers:
+HMI (15Hz)
+IMU (15Hz)
+Kelly (30Hz) half request data, half read data.
+Ticks (100Hz) Used to debounce switch inputs, lets switches settle
+Graph (60Hz) Updates HMI Plot when HMI page is plot page
+Swtich (20Hz) Check switch states
+
+init()
+
+Configures io pins and sets default value
+Requests RTC time from HMI (Some models have an RTC clock), RTC time is also used in Log file
+
+main loop
+Checks timer flags and runs appropriate functions from modules, or checks switches etc.
