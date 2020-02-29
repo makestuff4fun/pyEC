@@ -1,0 +1,14 @@
+File created with TJC USART HMI 0.59. Software is free to download from:
+http://tjcfile.iicp.net:885/USARTHMI/hmi.rar
+
+Reasonable work around.
+1. Download and install TJC sfotware.
+2. Downlod and extract Nextion software, don't use the installer
+https://nextion.tech/download/nextion-setup-v059.zip
+
+Now you can run both software at the same time. Copy and paste code between them and see what the
+Chinese fields mean. Not ideal, but easier than learning to read Chinese :)
+
+This is a development version of my current software. It has pages I don't use, a new spedometer that works but flashes. 
+It has overlapping graphics that can't work the way I'd like. Other pages are partial implementations of menus. I think it's the
+best to see as it has the most resources to use. Password screen, menus, timers etc.
