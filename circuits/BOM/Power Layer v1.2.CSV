@@ -1,0 +1,28 @@
+Bill of Material for ,,,,
+On 3/23/2020 at 11:57:20 AM,,,,
+,,,,
+Comment,Pattern,Quantity,Components,
+,,,,
+Size as needed (1-5A),CAP 1210/3225 - 1.2MM,1,PTC3,PTC Fuse
+0.1uF,CAP 0603/1608 RF,2,"C4, C5",SMT Capacitor
+100k,CAP 0603/1608 RF,1,R9,SMT Resistor
+100R,RES 0805/2012 RF,2,"R3, R7",SMT Resistor
+10K,RES 0603/1608 RF,11,"R4, R5, R8, R11, R13, R14, R15, R16, R18, R20, R21",SMT Resistor
+10nF,CAP 0603/1608 RF,1,C1,SMT Capacitor
+10uF,RES 0805/2012 RF Min,1,C2,SMT Capacitor
+10uH,IND 4x4 2,1,L1,SMT Inductor
+1k,CAP 0603/1608 RF,5,"R1, R2, R6, R17, R19",SMT Resistor
+22uF,CAP 0805/2012 RF,2,"C3, C6",SMT Capacitor
+44.2k,RES 0603/1608 RF,1,R10,SMT Resistor
+6.8k,RES 0603/1608 RF,1,R12,SMT Resistor
+A04408,SOIC8,2,"M1, M2",N-Channel MOSFET
+B130,SOD-123F,1,D2,
+Diode,SMA,2,"D3, D4",Any
+Header 2*25P 1.0mm,1.0mm 2X25 Header,1,Header,Header 50 Pin
+Header 2H,EH 2P,2,"Horn, Light","Header, 2-Pin"
+Header 2H,SH 1.0 * 2,4,"ACC, BL, CM1, CM2","Header, 2-Pin"
+Header 2H,XT30BW,1,XT30,"Header, 2-Pin"
+IN4148,SOD-123F,1,D1,
+MP2307DN,SOIC8N,1,MP2307,
+NFT,SOT-23,3,"Q4, Q6, Q8",N MOSFET FDN337N
+NPN,SOT-23,5,"Q1, Q2, Q3, Q5, Q7",NPN Transistor Any
