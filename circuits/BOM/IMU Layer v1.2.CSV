@@ -1,0 +1,13 @@
+Bill of Material for ,,,,
+On 3/23/2020 at 11:47:04 AM,,,,
+,,,,
+Comment,Pattern,Quantity,Components,
+,,,,
+0R,RES 0603/1608 RF,4,"R1, R2, R3, R4",Used to select I2C or serial
+GPS,SH 1.0 * 4,1,P5,"Header, 4-Pin, Right Angle"
+Header 2*25P 1.0mm,1.0mm 2X25 Header - Dbl Layer,1,P1,Header
+IO,SH 1.0 * 4,1,P3,"Header, 4-Pin, Right Angle"
+JMP,J2,1,RST,Reset Jumper
+JY901,JY901,1,JY901,Wit Motion JY901/JY901B
+PWR,SH 1.0 * 2,1,P2,"Header, 2-Pin, Right Angle"
+UART,SH 1.0 * 4,1,P4,"Header, 4-Pin, Right Angle"
