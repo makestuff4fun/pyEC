@@ -1,0 +1,12 @@
+Bill of Material for ,,,,
+On 3/23/2020 at 12:06:40 PM,,,,
+,,,,
+Comment,Pattern,Quantity,Components,
+,,,,
+10k,CAP 0603/1608 RF,5,"RS1, RS2, RS3, RS4, RS5",SMT Resistor
+10k,SMD Pot,2,"Pot1, Pot2",3314G-1
+1k,CAP 0603/1608 RF,12,"RL1, RL2, RL3, RL4, RL5, RL6, RL7, RL8, RL9, RL10, RL11, RL12",SMT Resistor
+Green,LED 0603,12,"LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8, LED9, LED10, LED11, LED12",Chip LED
+Header 2*25P 1.0mm,1.0mm 2X25 Header,1,Header,
+Header 3H,SH 1.0 * 3,1,CAN,"Header, 3-Pin, Right Angle"
+SW-SPST,KMR4SWITCH,5,"BSW, HSW, KSW, LSW, SSW","Single-Pole, Single-Throw Switch"
