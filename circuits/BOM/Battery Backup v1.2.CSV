@@ -1,0 +1,26 @@
+Bill of Material for ,,,,
+On 3/23/2020 at 10:46:43 AM,,,,
+,,,,
+Comment,Pattern,Quantity,Components,Description/Notes
+,,,,
+0.1uF,CAP 0603/1608 RF,2,"C7, C8",SMT Capacitor
+100k,RES 0603/1608 RF,3,"R3, R7, R9",SMT Resistor
+10k,RES 0603/1608 RF,2,"R4, R10",SMT Resistor
+10uF,CAP 0805/2012 RF,1,C21,SMT Capacitor
+10uF,CAP 1206/3216 - 0.8MM,6,"C1, C2, C3, C4, C5, C6",SMT Capacitor
+10uH,IND 4x4 2,1,L1,SMT Inductor
+1k,RES 0603/1608 RF,1,R1,SMT Resistor
+22uF,CAP 0805/2012 RF,3,"C17, C19, C20",SMT Capacitor
+2k,RES 0603/1608 RF,1,R2,SMT Resistor
+4.7uF,CAP 0805/2012 RF,1,C22,SMT Capacitor
+1k,RES 0603/1608 RF,1,R17,SMT Resistor
+750k,RES 0603/1608 RF,1,R8,SMT Resistor
+BAT,EH 2P,1,P1,Too tall for middle layers
+BAT,J2,1,P3,"Header, 2-Pin"
+BAT,SH 1.0 * 2,1,P2,"Header, 2-Pin"
+Green,LED 0603,1,D7,Chip LED
+Header 2*25P 1.0mm,1.0mm 2X25 Header,1,Header,
+MCP73831,SOT-23-5,1,U4,
+NPN,SOT-23,2,"NPN, NPN2",NPN Transistor Any
+PAM2401,MSOP-8,1,U3,
+TP0610K,SOT-23,1,PFET,P MOSFET
