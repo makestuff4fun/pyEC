@@ -1,0 +1,11 @@
+Bill of Material for ,,,,
+On 3/23/2020 at 11:50:04 AM,,,,
+,,,,
+Comment,Pattern,Quantity,Components,
+,,,,
+10k,CAP 0603/1608 RF,14,"R1, R2, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R17, R18",SMT Resistor
+0.1uF,CAP 0603/1608 RF,7,"C1, C2, C3, C4, C5, C6, C7",SMT Capacitor
+Header 2*25P 1.0mm,1.0mm 2X25 Header,1,P1,"Header, 5-Pin, Right Angle"
+Header 2H,SH 1.0 * 2,5,"BSW, HSW, KSW, LSW, SSW","Header, 2-Pin, Right Angle"
+Header 3H,SH 1.0 * 3,2,"Rin, Tin","Header, 3-Pin, Right Angle"
+Voltage Jumpers,0603 Voltage Jumper,5,"J1, J2, J3, J4, J5",
