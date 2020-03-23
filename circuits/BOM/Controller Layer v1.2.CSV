@@ -1,0 +1,42 @@
+Bill of Material for ,,,,
+On 3/23/2020 at 10:04:32 AM,,,,
+,,,,
+Comment,Footprint,Quantity,Components,Description/Notes
+,,,,
+0.1uF,CAP 0603 RF,9,"C3, C4, C5, C6, C8, C9, C13, C14, C18",SMT Capacitor
+0.5A,RES 0603 RF,1,PTC,SMT Resistor
+0603 RGB 4 Pin Common GND,LED 0603 RGB,1,LED,4 pin RGB LED
+100K,RES 0603 RF,4,"R9, R12, R14, R15",SMT Resistor
+10K,RES 0603 RF,2,"R17, R24",SMT Resistor
+10M,RES 0603 RF,1,R13,SMT Resistor
+120R,RES 0603 RF,1,R20,SMT Resistor
+120R,RES 0603 RF,1,RCAN,SMT Resistor
+12MHz,TXC-SMD-32X25 - 4Pin,1,HOSC,
+12p,CAP 0603 RF,4,"C1, C2, C11, C12",SMT Capacitor
+1k,CAP 0603 RF,1,L1,SMT Inductor
+1k,RES 0603 RF,7,"R5, R7, R11, R23, RB, RG, RR",SMT Resistor
+1uF,CAP 0603 RF,3,"C10, C15, C16",SMT Capacitor
+2.2uF,CAP 0603 RF,2,"C11B, CB",SMT Capacitor
+22R,RES 0603 RF,2,"R1, R2",SMT Resistor
+28K,RES 0603 RF,1,R16,SMT Resistor
+2k,RES 0603 RF,2,"R4, R6",SMT Resistor
+2x3x4.5 SMD Switch,Switch 2x3x4.5 SMD and SH1.0,1,USR,"Single-Pole, Single-Throw Switch"
+32.768kHz,TXC-SMD-32X15,1,LOSC,2 Pin
+4.7uF,CAP 0603 RF,1,C7,SMT Capacitor
+4k7,RES 0603 RF,6,"I2C1, I2C2, I2C3, I2C4, R3, RU",SMT Resistor
+4u7,CAP 0603 RF,2,"C17, C19",SMT Capacitor
+560R,RES 0603 RF,2,"R8, R10",SMT Resistor
+Buzzer 5mm,Buzzer - SMD 5mm,1,Buzzer,Multi footprint + 2Pin SH 1.0
+Diode,SOD-123,3,"D1, D2, D9",Any
+Header 2*25P 1.0mm pitch,1.0mm 2X25 Header,1,Header,Header 2*25P 1.0mm pitch
+Header 2H,2 pin 1.27mm,1,JBT,Jumper for DFU Programming
+JTAG STM32,2*4 pin 1.27mm,1,JTAG,JTAG Connector
+MCP1802T-3302I/OT,SOT-23-5,1,MCP1802,
+MCP6002-I/SN,SOIC8,1,MCP6002,FET Operational Amplifier
+MIC2005A-1YM6,SOT-23 (6),1,MIC2005A,
+MOLEX-SD 47309,MOLEX-SD-47309,1,SD Card,
+NPN,SOT-23,1,T4,NPN Transistor SOT23 Any
+STM32F405RGT6,LQFP64,1,STM32F405,
+SW-SPST,Switch 2x3x4.5 SMD and SH1.0,2,"RST,USR","Single-Pole, Single-Throw Switch"
+TCAN1042HVDRQ1,SOIC8,1,TCAN,IC TXRX CAN FAULT PROT 8SOIC
+USB-MICRO MK5P,Micro USB,1,USB,MK5P
