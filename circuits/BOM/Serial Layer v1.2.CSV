@@ -1,0 +1,10 @@
+Bill of Material for ,,,,
+On 3/23/2020 at 12:02:55 PM,,,,
+,,,,
+Comment,Pattern,Quantity,Components,
+,,,,
+BSS138,SOT-23,8,"U1, U2, U3, U4, U5, U6, U7, U8",N-Channel MOSFET
+Bypass resistors,RES 0603/1608 RF,32,"DNP1, DNP2, DNP3, DNP4, DNP5, DNP6, DNP7, DNP8, R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24",SMT Resistor
+Green,LED 0603,8,"D1, D2, D3, D4, D5, D6, D7, D8",Chip LED
+Header 2*25P 1.0mm,1.0mm 2X25 Header,1,Header,"Header, 5-Pin, Right Angle"
+Header 4H,SH 1.0 * 4,4,"P1, P3, P4, P6","Header, 4-Pin, Right Angle"
