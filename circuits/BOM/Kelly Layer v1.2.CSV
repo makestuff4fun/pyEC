@@ -1,0 +1,21 @@
+Bill of Material for ,,,,
+On 3/23/2020 at 11:52:05 AM,,,,
+,,,,
+Comment,Pattern,Quantity,Components,
+,,,,
+0R,CAP 0603/1608 RF,2,"DNP1, DNP2",SMT Resistor
+10k,CAP 0603/1608 RF,11,"DNP3, DNP4, R3, R4, R5, R6, R7, R8, R11, R13, R14",SMT Resistor
+10uH,IND 4x4 2,1,L1,SMT Inductor 4x4x2
+1k,CAP 0603/1608 RF,3,"R2, R9, R12",SMT Resistor
+22uF,CAP 0805/2012 RF,2,"C1, C2",SMT Capacitor
+4.3k,CAP 0603/1608 RF,1,R10,SMT Resistor
+40k,CAP 0603/1608 RF,1,R1,SMT Resistor
+B130,SOD-123,1,D1,Diode
+BSS138,SOT-23,2,"U1, U2",N-Channel MOSFET
+Header 2*25P 1.0mm,1.0mm 2X25 Header,1,Header,Header
+Header 2H,SH 1.0 * 2,2,"PWR, Speed","Header, 2-Pin"
+Header 3H,SH 1.0 * 3,2,"Regen, Throttle","Header, 3-Pin"
+Header 4H,SH 1.0 * 4,1,UART,"Header, 4-Pin"
+MT3608,SOT-23 (6),1,U5,Boost Converter
+NPN,SOT-23,2,"Q2, Q3",NPN Transistor Any
+PNP,SOT-23,2,"Q1, Q4",PNP Transistor Any
